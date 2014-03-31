@@ -1,0 +1,4 @@
+---
+
+- name: set motd with specified figure
+  shell: "/usr/bin/curl -s {{ motd_dq2.figures[figure|default('slime')] }} | sudo /usr/bin/tee /etc/motd.tail"
