@@ -17,15 +17,15 @@ $ ssh vagrant@127.0.0.1 -p 2222 -i ~/.vagrant.d/insecure_private_key
 
 ## Availeble figures
 
-* slime:           
-* slime-beth:      
-* metal-slime:     
-* slime-allstar:   
-* dq2-lorasia:     
-* dq2-samaltria:   
-* dq2-moonbrooke:  
-* dq2-allstar:     
-* dq2-allstar_half:
+* slime           
+* slime-beth      
+* metal-slime     
+* slime-allstar   
+* dq2-lorasia     
+* dq2-samaltria   
+* dq2-moonbrooke  
+* dq2-allstar     
+* dq2-allstar_half
 
 Figures are specified with a variable `figure`, and default figure is `slime`.
 
