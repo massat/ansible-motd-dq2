@@ -19,7 +19,9 @@ $ ssh vagrant@127.0.0.1 -p 2222 -i ~/.vagrant.d/insecure_private_key
 
 * slime           
 * slime-beth      
-* metal-slime     
+* metal-slime
+* bubble-slime
+* hagure-metal     
 * slime-allstar   
 * dq2-lorasia     
 * dq2-samaltria   
