@@ -26,11 +26,48 @@ Available values is listed below.
 Example
 -------------------------
 
-With bundled `Vagrantfile`, 
+### Install from galaxy.ansible.com
+
+Install with
+
+```sh
+$ ansible-galaxy install massat.ansible-motd-dq2
+```
+
+and write playbook
+
+```yml example.yml
+- hosts: example
+  roles:
+  - { role: massat.ansible-motd-dq2, motd_dq2_figure: slime-beth }
+```
+
+then, run role.
+
+```sh
+$ ansible-playbook example.yml -i path/to/your-inventry
+```
+
+### Download from GitHub
+
+Vagrantfile is bundled in repositry.
+So, clone with
+
+```sh
+$ git clone git@github.com:massat/ansible-motd-dq2.git
+$ cd ansible-motd-dq2
+```
+
+and vagrant up, and run playbook.
 
 ```sh
 $ vagrant up
 $ ansible-playbook example.yml -i example_inventry
+```
+
+You can see it on ssh login.
+
+```sh
 $ ssh vagrant@127.0.0.1 -p 2222 -i ~/.vagrant.d/insecure_private_key
 ```
 
