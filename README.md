@@ -71,6 +71,8 @@ You can see it on ssh login.
 $ ssh vagrant@127.0.0.1 -p 2222 -i ~/.vagrant.d/insecure_private_key
 ```
 
+![](http://massat.github.io/images/posts/1__vagrant_vagrant-ubuntu-raring-64_____ssh_.png)
+
 Tested OS
 ------------------
 
