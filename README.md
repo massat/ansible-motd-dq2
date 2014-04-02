@@ -36,7 +36,7 @@ $ ansible-galaxy install massat.ansible-motd-dq2
 
 and write playbook
 
-```yml example.yml
+```yml
 - hosts: example
   roles:
   - { role: massat.ansible-motd-dq2, motd_dq2_figure: slime-beth }
