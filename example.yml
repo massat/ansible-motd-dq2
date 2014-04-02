@@ -4,8 +4,9 @@
 - name:  motd-dq2 example
   hosts: vagrant_guest
   sudo:  yes
-  
+
   vars_files:
+    - defaults/main.yml
     - vars/main.yml
 
   tasks:

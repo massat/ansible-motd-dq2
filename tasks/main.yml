@@ -2,4 +2,7 @@
 # tasks file for ansible-motd-dq2
 
 - name: set motd with specified figure
-  shell: "/usr/bin/curl -s {{ motd_dq2.figures[motd_dq2_figure] }} | sudo /usr/bin/tee /etc/motd.tail"
+  get_url:
+    dest:  /etc/motd.tail
+    force: yes
+    url:   "{{ motd_dq2.figures[motd_dq2_figure] }}"
