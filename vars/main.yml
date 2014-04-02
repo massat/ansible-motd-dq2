@@ -1,5 +1,5 @@
-
 ---
+# variables file for ansible-motd-dq2
 
 motd_dq2:
   figures:

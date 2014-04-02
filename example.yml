@@ -1,8 +1,8 @@
 
 ---
 
-- name:  make motd dq2
-  hosts: all
+- name:  motd-dq2 example
+  hosts: vagrant_guest
   sudo:  yes
   
   vars_files:
