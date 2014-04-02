@@ -2,6 +2,7 @@
 # tasks file for ansible-motd-dq2
 
 - name: set motd with specified figure
+  sudo: yes
   get_url:
     dest:  /etc/motd.tail
     force: yes
